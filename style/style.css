@@ -1,3 +1,44 @@
 *{
-  color: red;
+	color: black;
 }
+html{
+	
+	background-color: #54A3D8;
+}
+    .btn_up {
+        position: fixed;
+        top: 45%;
+        right: 0;
+        border-right: 25px solid white;
+        border-left: 25px solid white;
+        border-bottom: 35px solid black;
+        display:inline-block;
+    }
+    .btn_up:hover {
+        border-right: 30px solid white;
+        border-left: 30px solid white;
+        border-bottom: 40px solid blue;
+        display:inline-block;
+    }
+    .btn_down {
+        position: fixed;
+        top: 55%;
+        right: 0;
+        border-right: 25px solid white;
+        border-left: 25px solid white;
+        border-top: 35px solid black;
+        display:inline-block;
+    }
+    .btn_down:hover {
+        border-right: 30px solid white;
+        border-left: 30px solid white;
+        border-top: 40px solid blue;
+        display:inline-block;
+    }
+	    .text {
+        position: fixed;
+        top: 50%;
+        right: 0;
+
+        display:inline-block;
+    }
